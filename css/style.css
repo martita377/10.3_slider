@@ -1,0 +1,43 @@
+
+body {
+	padding-top: 50px;
+}
+.container {
+	display: flex;
+}
+
+#carousel {
+	height: 400px;
+	width: 500px;
+	border: #000 3px solid;
+	overflow: hidden;
+}
+#gallery {
+	width: 2500px;
+}
+
+ul li {
+	float: left;
+	height: 400px;
+	width: 500px;
+}
+
+ul li img {
+	height: 100%;
+	width: 100%;
+}
+
+.left-arrow, .right-arrow {
+	align-self: center;
+	flex: 1;
+}
+.left-arrow>i, .right-arrow>i  {
+	font-size: 30px;
+	margin: 10px;
+}
+.left-arrow {
+	text-align: right;
+}
+.right-arrow {
+	text-align: left;
+}
