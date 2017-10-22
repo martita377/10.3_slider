@@ -11,6 +11,7 @@ body {
 	width: 500px;
 	border: #000 3px solid;
 	overflow: hidden;
+	position: relative;
 }
 #gallery {
 	width: 2500px;
@@ -40,4 +41,20 @@ ul li img {
 }
 .right-arrow {
 	text-align: left;
+}
+.bubbles {
+	position: absolute;
+	top: 350px;
+	left: 189px;
+}
+.bubble {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	border-radius: 50%;
+	border: #ccc 2px solid;
+}
+.bubble-1 {
+	background: #ccc;
 }
